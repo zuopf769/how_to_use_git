@@ -34,6 +34,9 @@ git checkout dev
 ```
 切换到Dev分支后，HEAD就指向当前分支Dev了。
 
+![2](https://github.com/zuopf769/how_to_use_git/blob/master/images/20141230143916421.png)
+
+
 在Dev上修改，比如修改helloworld.c，然后提交，分支Dev指向当前分支的最新提交，而master指向master分支的最新提交。
 
 切换回到master分支：
@@ -45,6 +48,8 @@ git checkout master
 
 然后再master分支上查看helloworld.c，我们发现并没有被修改。
 
+![3](https://github.com/zuopf769/how_to_use_git/blob/master/images/20141230143942948.png)
+
 为了将在分支Dev上所做的修改也作用的master分支上，也就是说将Dev分支合并（merge）到master分支上。
 
 ```
@@ -53,9 +58,12 @@ git merge dev
 ```
 这时候master指向了Dev的最近一次提交。而head指向当前分支即master。
 
+![4](https://github.com/zuopf769/how_to_use_git/blob/master/images/20141230144015116.png)
+
 当利用分支Dev做好修改工作后，就可以把Dev删除掉。兔死狗烹，卸磨杀驴。
 
 ```
 git branch -d dev  
 
 ```
+![5](https://github.com/zuopf769/how_to_use_git/blob/master/images/20141230144036207.png)
