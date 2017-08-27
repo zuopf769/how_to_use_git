@@ -25,7 +25,7 @@
 ## 四、历史分支和功能分支的区别
 
 
-![历史分支和功能分支的区别]()
+![历史分支和功能分支的区别](https://github.com/zuopf769/how_to_use_git/blob/master/images/58a025c200016a8712800720.jpg)
 
 ### 历史分支
 > 相对使用仅有的一个master分支，Gitflow工作流使用2个分支来记录项目的历史。master分支存储了正式发布的历史，而develop分支作为功能的集成分支。这样也方便master分支上的所有提交分配一个版本号。
