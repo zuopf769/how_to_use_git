@@ -22,6 +22,8 @@ head(小写)是commit对象的引用，每个head都有一个名字（分支名�
 
 在master分支上，HEAD指向master，而master指向的是最近的一次提交。如下图
 
+![1](https://github.com/zuopf769/how_to_use_git/blob/master/images/20141230143856975.png)
+
 当我们新建分支时，比如新建分支Dev，Dev会指向当前master分支的最近一次提交。
 
 当我们使用命令：
