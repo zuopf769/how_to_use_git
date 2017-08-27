@@ -33,5 +33,5 @@
 
 ## 五、gitflow示意图
 
-
+![gitflow示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/58e8eb560001ecfd12800720.jpg)
 
