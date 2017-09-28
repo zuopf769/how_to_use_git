@@ -1,6 +1,6 @@
 ##  gitlab和github一起使用
 
-> 左鹏飞 2017.09.28
+> [左鹏飞](https://github.com/zuopf769) 2017.09.28
 
 ### 1. 背景
 
