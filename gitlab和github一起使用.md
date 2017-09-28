@@ -11,9 +11,11 @@
 #### 2.2 生成公钥、秘钥
 
 ssh-keygen -t rsa -C "注册的gitlab邮箱"
+
 名称输入gitlab_id_rsa
 
 ssh-keygen -t rsa -C "注册的github邮箱"
+
 名称输入github_id_rsa
 
 除了名称外，其他一路回车。
