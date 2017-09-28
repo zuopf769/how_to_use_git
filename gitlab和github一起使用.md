@@ -102,5 +102,4 @@ git config --local user.email 'kingboy@163.com'
 ### 3 参考资料
 
 + [ssh config配置](http://www.xuebuyuan.com/414672.html)
-#### 2.6 接下来在两个目录下新建或者clone项目开发即可.资料
-#### 2.6 接下来在两个目录下新建或者clone项目开发即可.
+
