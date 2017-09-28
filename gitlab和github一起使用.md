@@ -57,7 +57,7 @@ Host github
 
 + ssh的server的URL如下图所示
 
-![]()
+![](https://github.com/zuopf769/how_to_use_git/blob/master/images/gitconfig.jpeg)
 
 + HostName根据自己实际需求来定
 
