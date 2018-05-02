@@ -51,6 +51,17 @@ git rebase -i  [startpoint]  [endpoint]
 其中`-i`的意思是`--interactive`，即弹出交互式的界面让用户编辑完成合并操作，`[startpoint]  [endpoint]`则指定了一个编辑区间，如果不指定`[endpoint]`，则该区间的终点默认是当前分支HEAD所指向的commit(注：该区间指定的是一个前开后闭的区间)。
 在查看到了log日志后，我们运行以下命令：
 
+```
+git rebase -i 36224db
+```
+或者
+
+```
+git rebase -i HEAD~3 
+
+```
+
+然后我们会看到如下界面:
 
 
 
