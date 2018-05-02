@@ -7,7 +7,7 @@
 
 记得知乎上有个帖子提问为啥vue的作者尤大大在开发vue的时候，提交历史能做到如此清爽。[Git commits历史是如何做到如此清爽的? - 知乎](https://www.zhihu.com/question/61283395)
 
-![gitflow示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/v2-6351aba6f4b722630d0b3086dcab2927_hd.jpg)
+![vue commit log](https://github.com/zuopf769/how_to_use_git/blob/master/images/v2-6351aba6f4b722630d0b3086dcab2927_hd.jpg)
 
 
 ### 2. rebase简介
@@ -39,7 +39,7 @@ d2cf1f9 fix: 第一次提交
 
 当我们在本地仓库中提交了多次，在我们把本地提交push到公共仓库中之前，为了让提交记录更简洁明了，我们希望把如下分支B、C、D三个提交记录合并为一个完整的提交，然后再push到公共仓库。
 
-
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/2147642-42195cacced56729.png)
 
 这里我们使用命令:
 
