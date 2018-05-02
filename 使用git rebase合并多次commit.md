@@ -7,6 +7,8 @@
 
 记得知乎上有个帖子提问为啥vue的作者尤大大在开发vue的时候，提交历史能做到如此清爽。[Git commits历史是如何做到如此清爽的? - 知乎](https://www.zhihu.com/question/61283395)
 
+![gitflow示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/v2-6351aba6f4b722630d0b3086dcab2927_hd.jpg)
+
 
 ### 2. rebase简介
 
