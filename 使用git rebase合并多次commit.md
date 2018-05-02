@@ -107,4 +107,13 @@ git rebase -i HEAD~3
 
 ![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_49_16__05_02_2018.jpg)
 
+最后查看`log`可以发下提交合并了
+
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_49_42__05_02_2018.jpg）
+
+
+
+## 5. 参考文献
+
+[rebase 用法小结](https://www.jianshu.com/p/4a8f4af4e803)
 
