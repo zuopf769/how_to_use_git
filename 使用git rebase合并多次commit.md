@@ -1,5 +1,7 @@
 ## 使用git rebase合并多次commit
 
+[左鹏飞](https://github.com/zuopf769)
+
 ### 1. 背景
 
 一个repo通常是由一个team中的多个人共同维护，如果需要增加新feature，那么就是一个feature分支了。由于开发中各种修改，本feature分支多次commit。最后提交master后，会看到乱七八糟的所有增量修改历史。其实对别人来说，我们的改动应该就是增加或者删除，给别人看开发过程的增量反而太乱。于是我们可以将feature分支的提交合并后然后再merge到主干这样看起来就清爽多了。
