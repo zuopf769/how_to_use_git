@@ -109,7 +109,7 @@ git rebase -i HEAD~3
 
 最后查看`log`可以发下提交合并了
 
-![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_49_42__05_02_2018.jpg）
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_49_42__05_02_2018.jpg)
 
 
 
