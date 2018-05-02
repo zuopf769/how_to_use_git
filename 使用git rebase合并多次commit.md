@@ -63,7 +63,7 @@ git rebase -i HEAD~3
 
 然后我们会看到如下界面:
 
-
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/rebase-1.png)
 
 上面未被注释的部分列出的是我们本次rebase操作包含的所有提交，下面注释部分是git为我们提供的命令说明。每一个commit id 前面的pick表示指令类型，git 为我们提供了以下几个命令:
 
@@ -94,7 +94,7 @@ git rebase -i HEAD~3
 
 然后`wq`保存退出后是注释修改界面:
 
-
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/rebase-3.png)
 
 
 
