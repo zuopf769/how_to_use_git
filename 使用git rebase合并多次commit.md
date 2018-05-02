@@ -1,6 +1,6 @@
 ## 使用git rebase合并多次commit
 
-[左鹏飞](https://github.com/zuopf769)
+[左鹏飞](https://github.com/zuopf769) 2018.5.2
 
 ### 1. 背景
 
