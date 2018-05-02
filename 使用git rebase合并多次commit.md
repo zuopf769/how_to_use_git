@@ -97,7 +97,7 @@ git rebase -i HEAD~3
 ![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/rebase-3.png)
 
 
-
+> 可以再浏览态 按下两个dd可以删除一行
 
 
 
