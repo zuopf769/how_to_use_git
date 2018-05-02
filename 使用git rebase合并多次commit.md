@@ -99,5 +99,12 @@ git rebase -i HEAD~3
 
 > 可以再浏览态 按下两个dd可以删除一行
 
+最终的编辑效果如下：
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_48_34__05_02_2018.jpg)
+
+
+编辑完保存即可完成commit的合并了：
+
+![rebase示意图](https://github.com/zuopf769/how_to_use_git/blob/master/images/15_49_16__05_02_2018.jpg)
 
 
