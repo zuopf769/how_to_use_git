@@ -101,6 +101,16 @@ git config --local user.email 'kingboy@163.com'
 #### 2.6 接下来在两个目录下新建或者clone项目开发即可.
 
 
+#### 2.7 解决只能http协议clone成功，ssh协议不能成功的问题
+
+
+添加公钥到github和gitlab的个人账户后，分别执行 ssh -v git@github.com   ssh -v git@gitlab.*.com测试能否正常ssh链接;在日志里面可以查看到并未使用我们新生成的private私钥；而是使用默认的id_rsa，所以会报Permission denied (publickey).
+
+执行ssh-add -l命令显示密钥列表为空，所以要添加我们新生成的密钥；ssh-add ~/.ssh/github_id_rsa    ssh-add ~/.ssh/gitlab_id_rsa.pub； 使用ssh-add -l查看是否成功
+
+最后执行git clone ssh://xxxx就可以成功了
+
+
 ### 3 参考资料
 
 + [ssh config配置](http://www.xuebuyuan.com/414672.html)
